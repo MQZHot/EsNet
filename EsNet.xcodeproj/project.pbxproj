@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5367AC2861182501441133A /* Pods_EsNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B181605B6B1443378F721CD2 /* Pods_EsNet.framework */; };
+		D652CDE61EE54A85009AEB1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D652CDE51EE54A85009AEB1C /* AppDelegate.swift */; };
+		D652CDE81EE54A85009AEB1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D652CDE71EE54A85009AEB1C /* ViewController.swift */; };
+		D652CDEB1EE54A85009AEB1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D652CDE91EE54A85009AEB1C /* Main.storyboard */; };
+		D652CDED1EE54A85009AEB1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D652CDEC1EE54A85009AEB1C /* Assets.xcassets */; };
+		D652CDF01EE54A85009AEB1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D652CDEE1EE54A85009AEB1C /* LaunchScreen.storyboard */; };
+		D652CE021EE552B6009AEB1C /* TargetType+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D652CE011EE552B6009AEB1C /* TargetType+Extension.swift */; };
+		D652CE041EE552D9009AEB1C /* Response+NSCoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D652CE031EE552D9009AEB1C /* Response+NSCoding.swift */; };
+		D652CE061EE552FA009AEB1C /* Observable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D652CE051EE552FA009AEB1C /* Observable+Extension.swift */; };
+		D652CE081EE55546009AEB1C /* PicProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D652CE071EE55546009AEB1C /* PicProvider.swift */; };
+		D652CE0A1EE55614009AEB1C /* AdModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D652CE091EE55614009AEB1C /* AdModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		783AA8EAC182588CA13295BC /* Pods-EsNet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EsNet.release.xcconfig"; path = "Pods/Target Support Files/Pods-EsNet/Pods-EsNet.release.xcconfig"; sourceTree = "<group>"; };
+		83D4BD37CF8F680B22691E80 /* Pods-EsNet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EsNet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EsNet/Pods-EsNet.debug.xcconfig"; sourceTree = "<group>"; };
+		B181605B6B1443378F721CD2 /* Pods_EsNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EsNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D652CDE21EE54A85009AEB1C /* EsNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EsNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D652CDE51EE54A85009AEB1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D652CDE71EE54A85009AEB1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D652CDEA1EE54A85009AEB1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D652CDEC1EE54A85009AEB1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D652CDEF1EE54A85009AEB1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D652CDF11EE54A85009AEB1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D652CE011EE552B6009AEB1C /* TargetType+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TargetType+Extension.swift"; sourceTree = "<group>"; };
+		D652CE031EE552D9009AEB1C /* Response+NSCoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Response+NSCoding.swift"; sourceTree = "<group>"; };
+		D652CE051EE552FA009AEB1C /* Observable+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Extension.swift"; sourceTree = "<group>"; };
+		D652CE071EE55546009AEB1C /* PicProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicProvider.swift; sourceTree = "<group>"; };
+		D652CE091EE55614009AEB1C /* AdModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D652CDDF1EE54A85009AEB1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5367AC2861182501441133A /* Pods_EsNet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		586A65B489665A5D5B09BED2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B181605B6B1443378F721CD2 /* Pods_EsNet.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D117B4FE3BA03207000B8D55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83D4BD37CF8F680B22691E80 /* Pods-EsNet.debug.xcconfig */,
+				783AA8EAC182588CA13295BC /* Pods-EsNet.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D652CDD91EE54A85009AEB1C = {
+			isa = PBXGroup;
+			children = (
+				D652CDE41EE54A85009AEB1C /* EsNet */,
+				D652CDE31EE54A85009AEB1C /* Products */,
+				D117B4FE3BA03207000B8D55 /* Pods */,
+				586A65B489665A5D5B09BED2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D652CDE31EE54A85009AEB1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D652CDE21EE54A85009AEB1C /* EsNet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D652CDE41EE54A85009AEB1C /* EsNet */ = {
+			isa = PBXGroup;
+			children = (
+				D652CE001EE5529B009AEB1C /* Net */,
+				D652CDE51EE54A85009AEB1C /* AppDelegate.swift */,
+				D652CDE71EE54A85009AEB1C /* ViewController.swift */,
+				D652CE091EE55614009AEB1C /* AdModel.swift */,
+				D652CDE91EE54A85009AEB1C /* Main.storyboard */,
+				D652CDEC1EE54A85009AEB1C /* Assets.xcassets */,
+				D652CDEE1EE54A85009AEB1C /* LaunchScreen.storyboard */,
+				D652CDF11EE54A85009AEB1C /* Info.plist */,
+			);
+			path = EsNet;
+			sourceTree = "<group>";
+		};
+		D652CE001EE5529B009AEB1C /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				D652CE011EE552B6009AEB1C /* TargetType+Extension.swift */,
+				D652CE031EE552D9009AEB1C /* Response+NSCoding.swift */,
+				D652CE051EE552FA009AEB1C /* Observable+Extension.swift */,
+				D652CE071EE55546009AEB1C /* PicProvider.swift */,
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D652CDE11EE54A85009AEB1C /* EsNet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D652CDF41EE54A85009AEB1C /* Build configuration list for PBXNativeTarget "EsNet" */;
+			buildPhases = (
+				00B2CA70E9D2986EF47FE17F /* [CP] Check Pods Manifest.lock */,
+				D652CDDE1EE54A85009AEB1C /* Sources */,
+				D652CDDF1EE54A85009AEB1C /* Frameworks */,
+				D652CDE01EE54A85009AEB1C /* Resources */,
+				59C5D0A68A77DED2BE74E1B6 /* [CP] Embed Pods Frameworks */,
+				7B6C9C27C05DB67EA10CBF21 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EsNet;
+			productName = EsNet;
+			productReference = D652CDE21EE54A85009AEB1C /* EsNet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D652CDDA1EE54A85009AEB1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = es;
+				TargetAttributes = {
+					D652CDE11EE54A85009AEB1C = {
+						CreatedOnToolsVersion = 8.3.1;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D652CDDD1EE54A85009AEB1C /* Build configuration list for PBXProject "EsNet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D652CDD91EE54A85009AEB1C;
+			productRefGroup = D652CDE31EE54A85009AEB1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D652CDE11EE54A85009AEB1C /* EsNet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D652CDE01EE54A85009AEB1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D652CDF01EE54A85009AEB1C /* LaunchScreen.storyboard in Resources */,
+				D652CDED1EE54A85009AEB1C /* Assets.xcassets in Resources */,
+				D652CDEB1EE54A85009AEB1C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00B2CA70E9D2986EF47FE17F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		59C5D0A68A77DED2BE74E1B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EsNet/Pods-EsNet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B6C9C27C05DB67EA10CBF21 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EsNet/Pods-EsNet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D652CDDE1EE54A85009AEB1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D652CDE81EE54A85009AEB1C /* ViewController.swift in Sources */,
+				D652CE081EE55546009AEB1C /* PicProvider.swift in Sources */,
+				D652CE041EE552D9009AEB1C /* Response+NSCoding.swift in Sources */,
+				D652CE0A1EE55614009AEB1C /* AdModel.swift in Sources */,
+				D652CE061EE552FA009AEB1C /* Observable+Extension.swift in Sources */,
+				D652CE021EE552B6009AEB1C /* TargetType+Extension.swift in Sources */,
+				D652CDE61EE54A85009AEB1C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D652CDE91EE54A85009AEB1C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D652CDEA1EE54A85009AEB1C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D652CDEE1EE54A85009AEB1C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D652CDEF1EE54A85009AEB1C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D652CDF21EE54A85009AEB1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D652CDF31EE54A85009AEB1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D652CDF51EE54A85009AEB1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83D4BD37CF8F680B22691E80 /* Pods-EsNet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = EsNet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.EsNet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D652CDF61EE54A85009AEB1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 783AA8EAC182588CA13295BC /* Pods-EsNet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = EsNet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.EsNet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D652CDDD1EE54A85009AEB1C /* Build configuration list for PBXProject "EsNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D652CDF21EE54A85009AEB1C /* Debug */,
+				D652CDF31EE54A85009AEB1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D652CDF41EE54A85009AEB1C /* Build configuration list for PBXNativeTarget "EsNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D652CDF51EE54A85009AEB1C /* Debug */,
+				D652CDF61EE54A85009AEB1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D652CDDA1EE54A85009AEB1C /* Project object */;
+}
